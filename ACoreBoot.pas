@@ -2,7 +2,7 @@
 @Abstract ACore
 @Author Prof1983 <prof1983@ya.ru>
 @Created 30.10.2009
-@LastMod 28.08.2012
+@LastMod 03.09.2012
 }
 unit ACoreBoot;
 
@@ -27,7 +27,7 @@ uses
   ARuntimeExp, ARuntimeMain,
   AStringsExp,
   ASystemExp, ASystemMain,
-  AUiMain;
+  AUiExp, AUiMain;
 
 function Core_Boot(): Integer; stdcall;
 {$ifdef ADepr}
